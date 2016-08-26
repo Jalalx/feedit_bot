@@ -1,22 +1,23 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "feedit_bot",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "Feed It! A Telegram bot to get latest news from your favorite blogs and websites.",
   "keywords": [
-    "OpenShift",
-    "Node.js",
+    "Telegram",
+    "bot",
     "application",
-    "openshift"
+    "feed",
+    "RSS"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Jalal Khordadi",
+    "email": "feeditbot@gmail.com",
+    "url": "http://www.telegram.org/feedit_bot"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "http://www.telegram.org/feedit_bot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/jalalx/feedit_bot"
   },
 
   "engines": {
@@ -25,7 +26,8 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "~3.4.4",
+    "telegram-node-bot": "^3.0.12"
   },
   "devDependencies": {},
   "bundleDependencies": [],
